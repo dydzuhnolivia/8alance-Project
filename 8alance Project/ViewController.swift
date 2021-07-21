@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var blankLabel: UILabel!
     
     @IBOutlet weak var shakeLabel: UILabel!
     
@@ -22,7 +23,8 @@ class ViewController: UIViewController {
     }
     override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         if motion == .motionShake {
-            shakeLabel.text = "Shake me"
+            print("I have been shaken")
+            blankLabel.text = "I have been shaken"
     }
 }
 
