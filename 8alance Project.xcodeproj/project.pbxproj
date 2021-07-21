@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		129144A026A877B90095783E /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1291449F26A877B90095783E /* SecondTableViewController.swift */; };
 		A80FB8E126A8736400737BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80FB8E026A8736400737BAF /* AppDelegate.swift */; };
 		A80FB8E326A8736400737BAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80FB8E226A8736400737BAF /* SceneDelegate.swift */; };
 		A80FB8E526A8736400737BAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80FB8E426A8736400737BAF /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1291449F26A877B90095783E /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
 		A80FB8DD26A8736400737BAF /* 8alance Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "8alance Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80FB8E026A8736400737BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A80FB8E226A8736400737BAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				A80FB8EE26A8736600737BAF /* LaunchScreen.storyboard */,
 				A80FB8F126A8736600737BAF /* Info.plist */,
 				A80FB8E926A8736400737BAF /* _alance_Project.xcdatamodeld */,
+				1291449F26A877B90095783E /* SecondTableViewController.swift */,
 			);
 			path = "8alance Project";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				A80FB8E526A8736400737BAF /* ViewController.swift in Sources */,
 				A80FB8EB26A8736400737BAF /* _alance_Project.xcdatamodeld in Sources */,
+				129144A026A877B90095783E /* SecondTableViewController.swift in Sources */,
 				A80FB8E126A8736400737BAF /* AppDelegate.swift in Sources */,
 				A80FB8E326A8736400737BAF /* SceneDelegate.swift in Sources */,
 			);
