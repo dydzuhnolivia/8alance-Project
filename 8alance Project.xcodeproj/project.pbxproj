@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A80FB8E126A8736400737BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80FB8E026A8736400737BAF /* AppDelegate.swift */; };
+		A80FB8E326A8736400737BAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80FB8E226A8736400737BAF /* SceneDelegate.swift */; };
+		A80FB8E526A8736400737BAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80FB8E426A8736400737BAF /* ViewController.swift */; };
+		A80FB8E826A8736400737BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80FB8E626A8736400737BAF /* Main.storyboard */; };
+		A80FB8EB26A8736400737BAF /* _alance_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A80FB8E926A8736400737BAF /* _alance_Project.xcdatamodeld */; };
+		A80FB8ED26A8736600737BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80FB8EC26A8736600737BAF /* Assets.xcassets */; };
+		A80FB8F026A8736600737BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80FB8EE26A8736600737BAF /* LaunchScreen.storyboard */; };
+		A80FB8FB26A8736600737BAF /* _alance_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80FB8FA26A8736600737BAF /* _alance_ProjectTests.swift */; };
+		A80FB90626A8736600737BAF /* _alance_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80FB90526A8736600737BAF /* _alance_ProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A80FB8F726A8736600737BAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A80FB8D526A8736400737BAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A80FB8DC26A8736400737BAF;
+			remoteInfo = "8alance Project";
+		};
+		A80FB90226A8736600737BAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A80FB8D526A8736400737BAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A80FB8DC26A8736400737BAF;
+			remoteInfo = "8alance Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A80FB8DD26A8736400737BAF /* 8alance Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "8alance Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80FB8E026A8736400737BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A80FB8E226A8736400737BAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A80FB8E426A8736400737BAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A80FB8E726A8736400737BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A80FB8EA26A8736400737BAF /* _alance_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _alance_Project.xcdatamodel; sourceTree = "<group>"; };
+		A80FB8EC26A8736600737BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A80FB8EF26A8736600737BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A80FB8F126A8736600737BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A80FB8F626A8736600737BAF /* 8alance ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "8alance ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80FB8FA26A8736600737BAF /* _alance_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _alance_ProjectTests.swift; sourceTree = "<group>"; };
+		A80FB8FC26A8736600737BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A80FB90126A8736600737BAF /* 8alance ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "8alance ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80FB90526A8736600737BAF /* _alance_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _alance_ProjectUITests.swift; sourceTree = "<group>"; };
+		A80FB90726A8736600737BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A80FB8DA26A8736400737BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80FB8F326A8736600737BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80FB8FE26A8736600737BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A80FB8D426A8736400737BAF = {
+			isa = PBXGroup;
+			children = (
+				A80FB8DF26A8736400737BAF /* 8alance Project */,
+				A80FB8F926A8736600737BAF /* 8alance ProjectTests */,
+				A80FB90426A8736600737BAF /* 8alance ProjectUITests */,
+				A80FB8DE26A8736400737BAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A80FB8DE26A8736400737BAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A80FB8DD26A8736400737BAF /* 8alance Project.app */,
+				A80FB8F626A8736600737BAF /* 8alance ProjectTests.xctest */,
+				A80FB90126A8736600737BAF /* 8alance ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A80FB8DF26A8736400737BAF /* 8alance Project */ = {
+			isa = PBXGroup;
+			children = (
+				A80FB8E026A8736400737BAF /* AppDelegate.swift */,
+				A80FB8E226A8736400737BAF /* SceneDelegate.swift */,
+				A80FB8E426A8736400737BAF /* ViewController.swift */,
+				A80FB8E626A8736400737BAF /* Main.storyboard */,
+				A80FB8EC26A8736600737BAF /* Assets.xcassets */,
+				A80FB8EE26A8736600737BAF /* LaunchScreen.storyboard */,
+				A80FB8F126A8736600737BAF /* Info.plist */,
+				A80FB8E926A8736400737BAF /* _alance_Project.xcdatamodeld */,
+			);
+			path = "8alance Project";
+			sourceTree = "<group>";
+		};
+		A80FB8F926A8736600737BAF /* 8alance ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				A80FB8FA26A8736600737BAF /* _alance_ProjectTests.swift */,
+				A80FB8FC26A8736600737BAF /* Info.plist */,
+			);
+			path = "8alance ProjectTests";
+			sourceTree = "<group>";
+		};
+		A80FB90426A8736600737BAF /* 8alance ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A80FB90526A8736600737BAF /* _alance_ProjectUITests.swift */,
+				A80FB90726A8736600737BAF /* Info.plist */,
+			);
+			path = "8alance ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A80FB8DC26A8736400737BAF /* 8alance Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80FB90A26A8736600737BAF /* Build configuration list for PBXNativeTarget "8alance Project" */;
+			buildPhases = (
+				A80FB8D926A8736400737BAF /* Sources */,
+				A80FB8DA26A8736400737BAF /* Frameworks */,
+				A80FB8DB26A8736400737BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "8alance Project";
+			productName = "8alance Project";
+			productReference = A80FB8DD26A8736400737BAF /* 8alance Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A80FB8F526A8736600737BAF /* 8alance ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80FB90D26A8736600737BAF /* Build configuration list for PBXNativeTarget "8alance ProjectTests" */;
+			buildPhases = (
+				A80FB8F226A8736600737BAF /* Sources */,
+				A80FB8F326A8736600737BAF /* Frameworks */,
+				A80FB8F426A8736600737BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A80FB8F826A8736600737BAF /* PBXTargetDependency */,
+			);
+			name = "8alance ProjectTests";
+			productName = "8alance ProjectTests";
+			productReference = A80FB8F626A8736600737BAF /* 8alance ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A80FB90026A8736600737BAF /* 8alance ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80FB91026A8736600737BAF /* Build configuration list for PBXNativeTarget "8alance ProjectUITests" */;
+			buildPhases = (
+				A80FB8FD26A8736600737BAF /* Sources */,
+				A80FB8FE26A8736600737BAF /* Frameworks */,
+				A80FB8FF26A8736600737BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A80FB90326A8736600737BAF /* PBXTargetDependency */,
+			);
+			name = "8alance ProjectUITests";
+			productName = "8alance ProjectUITests";
+			productReference = A80FB90126A8736600737BAF /* 8alance ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A80FB8D526A8736400737BAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A80FB8DC26A8736400737BAF = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					A80FB8F526A8736600737BAF = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A80FB8DC26A8736400737BAF;
+					};
+					A80FB90026A8736600737BAF = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A80FB8DC26A8736400737BAF;
+					};
+				};
+			};
+			buildConfigurationList = A80FB8D826A8736400737BAF /* Build configuration list for PBXProject "8alance Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A80FB8D426A8736400737BAF;
+			productRefGroup = A80FB8DE26A8736400737BAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A80FB8DC26A8736400737BAF /* 8alance Project */,
+				A80FB8F526A8736600737BAF /* 8alance ProjectTests */,
+				A80FB90026A8736600737BAF /* 8alance ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A80FB8DB26A8736400737BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80FB8F026A8736600737BAF /* LaunchScreen.storyboard in Resources */,
+				A80FB8ED26A8736600737BAF /* Assets.xcassets in Resources */,
+				A80FB8E826A8736400737BAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80FB8F426A8736600737BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80FB8FF26A8736600737BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A80FB8D926A8736400737BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80FB8E526A8736400737BAF /* ViewController.swift in Sources */,
+				A80FB8EB26A8736400737BAF /* _alance_Project.xcdatamodeld in Sources */,
+				A80FB8E126A8736400737BAF /* AppDelegate.swift in Sources */,
+				A80FB8E326A8736400737BAF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80FB8F226A8736600737BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80FB8FB26A8736600737BAF /* _alance_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80FB8FD26A8736600737BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80FB90626A8736600737BAF /* _alance_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A80FB8F826A8736600737BAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A80FB8DC26A8736400737BAF /* 8alance Project */;
+			targetProxy = A80FB8F726A8736600737BAF /* PBXContainerItemProxy */;
+		};
+		A80FB90326A8736600737BAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A80FB8DC26A8736400737BAF /* 8alance Project */;
+			targetProxy = A80FB90226A8736600737BAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A80FB8E626A8736400737BAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A80FB8E726A8736400737BAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A80FB8EE26A8736600737BAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A80FB8EF26A8736600737BAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A80FB90826A8736600737BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A80FB90926A8736600737BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A80FB90B26A8736600737BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "8alance Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kode-with-klossy.-alance-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A80FB90C26A8736600737BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "8alance Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kode-with-klossy.-alance-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A80FB90E26A8736600737BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "8alance ProjectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kode-with-klossy.-alance-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/8alance Project.app/8alance Project";
+			};
+			name = Debug;
+		};
+		A80FB90F26A8736600737BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "8alance ProjectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kode-with-klossy.-alance-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/8alance Project.app/8alance Project";
+			};
+			name = Release;
+		};
+		A80FB91126A8736600737BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "8alance ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kode-with-klossy.-alance-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "8alance Project";
+			};
+			name = Debug;
+		};
+		A80FB91226A8736600737BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "8alance ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kode-with-klossy.-alance-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "8alance Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80FB8D826A8736400737BAF /* Build configuration list for PBXProject "8alance Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80FB90826A8736600737BAF /* Debug */,
+				A80FB90926A8736600737BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80FB90A26A8736600737BAF /* Build configuration list for PBXNativeTarget "8alance Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80FB90B26A8736600737BAF /* Debug */,
+				A80FB90C26A8736600737BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80FB90D26A8736600737BAF /* Build configuration list for PBXNativeTarget "8alance ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80FB90E26A8736600737BAF /* Debug */,
+				A80FB90F26A8736600737BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80FB91026A8736600737BAF /* Build configuration list for PBXNativeTarget "8alance ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80FB91126A8736600737BAF /* Debug */,
+				A80FB91226A8736600737BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A80FB8E926A8736400737BAF /* _alance_Project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A80FB8EA26A8736400737BAF /* _alance_Project.xcdatamodel */,
+			);
+			currentVersion = A80FB8EA26A8736400737BAF /* _alance_Project.xcdatamodel */;
+			path = _alance_Project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A80FB8D526A8736400737BAF /* Project object */;
+}
