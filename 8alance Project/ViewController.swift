@@ -27,19 +27,49 @@ class ViewController: UIViewController {
         if motion == .motionShake
         {
             if pick == 1
-            {
+        {
                 blankLabel.text = "I think"
-        }
+            }
         else
             if pick == 2
-            {
+        {
                 blankLabel.text = "It is decidely so"
-    }
+            }
         else
             if pick == 3
     {
-        blankLabel.text = "why not"
-            }
+        blankLabel.text = ""
+        }
+        else
+            if pick == 4
+    {
+            blankLabel.text = ""
+        }
+           else
+            if pick == 5
+    {
+                blankLabel.text = ""
+        }
+            if pick == 6
+    {
+                blankLabel.text = ""
+        }
+            if pick == 7
+    {
+                blankLabel.text = ""
+        }
+            if pick == 8
+    {
+                blankLabel.text = ""
+        }
+            if pick == 9
+    {
+                blankLabel.text = ""
+        }
+            if pick == 10
+    {
+                blankLabel.text = ""
+        }
             pick = pick + 1
         }
     }
