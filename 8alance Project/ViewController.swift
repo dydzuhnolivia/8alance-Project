@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var pick = 1
+    
     @IBOutlet weak var blankLabel: UILabel!
     
     @IBOutlet weak var shakeLabel: UILabel!
@@ -22,10 +24,28 @@ class ViewController: UIViewController {
         
     }
     override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
-        if motion == .motionShake {
-            print("I have been shaken")
-            blankLabel.text = "I have been shaken"
+        if motion == .motionShake
+        {
+            if pick == 1
+            {
+                blankLabel.text = "I think"
+        }
+        else
+            if pick == 2
+            {
+                blankLabel.text = "It is decidely so"
     }
-}
-
+        else
+            if pick == 3
+    {
+        blankLabel.text = "why not"
+            }
+            pick = pick + 1
+        }
+    }
+    func myRand(a: Int, b: Int) -> Int{
+        let range = b-a
+        let rand = Int(arc4random_uniform(UInt32(range)))+a
+        return rand
+    }
 }
