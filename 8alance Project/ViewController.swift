@@ -50,22 +50,27 @@ class ViewController: UIViewController {
     {
                 blankLabel.text = ""
         }
+            else
             if pick == 6
     {
                 blankLabel.text = ""
         }
+            else
             if pick == 7
     {
                 blankLabel.text = ""
         }
+            else
             if pick == 8
     {
                 blankLabel.text = ""
         }
+            else
             if pick == 9
     {
                 blankLabel.text = ""
         }
+            else
             if pick == 10
     {
                 blankLabel.text = ""
