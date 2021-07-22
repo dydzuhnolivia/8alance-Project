@@ -28,52 +28,52 @@ class ViewController: UIViewController {
         {
             if pick == 1
         {
-                blankLabel.text = "I think"
+                blankLabel.text = "Meditate"
             }
         else
             if pick == 2
         {
-                blankLabel.text = "It is decidely so"
+                blankLabel.text = "Read a book"
             }
         else
             if pick == 3
     {
-        blankLabel.text = ""
+        blankLabel.text = "Write in a journal"
         }
         else
             if pick == 4
     {
-            blankLabel.text = ""
+            blankLabel.text = "List five things you're grateful for"
         }
            else
             if pick == 5
     {
-                blankLabel.text = ""
+                blankLabel.text = "Paint your nails"
         }
             else
             if pick == 6
     {
-                blankLabel.text = ""
+                blankLabel.text = "Sing your favorite song"
         }
             else
             if pick == 7
     {
-                blankLabel.text = ""
+                blankLabel.text = "Go on a walk"
         }
             else
             if pick == 8
     {
-                blankLabel.text = ""
+                blankLabel.text = "Make a playlist"
         }
             else
             if pick == 9
     {
-                blankLabel.text = ""
+                blankLabel.text = "Make your favorite meal"
         }
             else
             if pick == 10
     {
-                blankLabel.text = ""
+                blankLabel.text = "Take a bath"
         }
             pick = pick + 1
         }
